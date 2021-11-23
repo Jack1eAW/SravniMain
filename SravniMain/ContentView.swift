@@ -8,9 +8,31 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            HStack(){
+                Text("Как рассчитывается цена на полис ОСАГО")
+                    .font(.title)
+                    .fontWeight(.bold)
+                    .padding()
+            }
+                ScrollView(.horizontal){
+                    HStack{
+                    UpCardsAirplane()
+                    UpCardsPurse()
+                    UpCardsSale()
+                    UpCardsChair()
+                    UpCardsCar()
+                    }
+                    .padding()
+            }
+            Spacer()
+            List{
+                Text("Hello")
+            }
+        }
+        .background(Color("background"))
     }
 }
 

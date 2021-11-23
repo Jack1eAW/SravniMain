@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F533DD4274D513100083CFF /* UpCardsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD3274D513100083CFF /* UpCardsCar.swift */; };
+		1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD5274D513E00083CFF /* UpCardsChair.swift */; };
+		1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD7274D514E00083CFF /* UpCardsSale.swift */; };
+		1F533DDA274D515B00083CFF /* UpCardsPurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD9274D515B00083CFF /* UpCardsPurse.swift */; };
+		1F542869274D415800D83F08 /* UpCardsAirplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F542868274D415800D83F08 /* UpCardsAirplane.swift */; };
 		1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88AC6527467167007F76FB /* SravniMainApp.swift */; };
 		1F88AC6827467167007F76FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88AC6727467167007F76FB /* ContentView.swift */; };
 		1F88AC6A27467168007F76FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88AC6927467168007F76FB /* Assets.xcassets */; };
@@ -34,6 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F533DD3274D513100083CFF /* UpCardsCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsCar.swift; sourceTree = "<group>"; };
+		1F533DD5274D513E00083CFF /* UpCardsChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsChair.swift; sourceTree = "<group>"; };
+		1F533DD7274D514E00083CFF /* UpCardsSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsSale.swift; sourceTree = "<group>"; };
+		1F533DD9274D515B00083CFF /* UpCardsPurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsPurse.swift; sourceTree = "<group>"; };
+		1F542868274D415800D83F08 /* UpCardsAirplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsAirplane.swift; sourceTree = "<group>"; };
 		1F88AC6227467167007F76FB /* SravniMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SravniMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F88AC6527467167007F76FB /* SravniMainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SravniMainApp.swift; sourceTree = "<group>"; };
 		1F88AC6727467167007F76FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +81,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F533DD2274D511800083CFF /* UpCards */ = {
+			isa = PBXGroup;
+			children = (
+				1F542868274D415800D83F08 /* UpCardsAirplane.swift */,
+				1F533DD9274D515B00083CFF /* UpCardsPurse.swift */,
+				1F533DD7274D514E00083CFF /* UpCardsSale.swift */,
+				1F533DD5274D513E00083CFF /* UpCardsChair.swift */,
+				1F533DD3274D513100083CFF /* UpCardsCar.swift */,
+			);
+			path = UpCards;
+			sourceTree = "<group>";
+		};
 		1F88AC5927467167007F76FB = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +120,7 @@
 				1F88AC6727467167007F76FB /* ContentView.swift */,
 				1F88AC6927467168007F76FB /* Assets.xcassets */,
 				1F88AC6B27467168007F76FB /* Preview Content */,
+				1F533DD2274D511800083CFF /* UpCards */,
 			);
 			path = SravniMain;
 			sourceTree = "<group>";
@@ -257,8 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */,
+				1F533DDA274D515B00083CFF /* UpCardsPurse.swift in Sources */,
 				1F88AC6827467167007F76FB /* ContentView.swift in Sources */,
+				1F542869274D415800D83F08 /* UpCardsAirplane.swift in Sources */,
+				1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */,
 				1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */,
+				1F533DD4274D513100083CFF /* UpCardsCar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
