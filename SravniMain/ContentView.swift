@@ -10,29 +10,58 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        VStack{
-            HStack(){
-                Text("Как рассчитывается цена на полис ОСАГО")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .padding()
-            }
-                ScrollView(.horizontal){
-                    HStack{
-                    UpCardsAirplane()
-                    UpCardsPurse()
-                    UpCardsSale()
-                    UpCardsChair()
-                    UpCardsCar()
+        NavigationView {
+            ScrollView {
+                VStack {
+                    VStack{
+                    HStack(){
+                        Text("Как рассчитывается цена на полис ОСАГО")
+                            .font(.title)
+                            .fontWeight(.bold)
+                            .padding()
+                        }
+                    
+                    ScrollView(.horizontal){
+                        HStack {
+                            UpCardsAirplane()
+                            UpCardsPurse()
+                            UpCardsSale()
+                            UpCardsChair()
+                            UpCardsCar()
+                        }
+                        .padding()
                     }
-                    .padding()
+                    }
+                    .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity)
+                    .background(Color("background"))
+                    .edgesIgnoringSafeArea(.top)
+                    
+                    Spacer()
+                    
+                    VStack() {
+                        Text("Как формируется цена?")
+                            .font(.system(size: 20))
+                            .fontWeight(.bold)
+                        CalcView()
+                        
+                    }
+                    
+                    VStack {
+                        Text("Подробнее о коэффицентах")
+                            .font(.system(size: 20))
+                            .fontWeight(.bold)
+                        BtListSection()
+                        KmListSection()
+                        KtListSection()
+                        KbmListSection()
+                        KoListSection()
+                        KvsListSection()
+                    }
+                }
             }
-            Spacer()
-            List{
-                Text("Hello")
-            }
+            .background(Color.white)
+            .navigationBarHidden(true)
         }
-        .background(Color("background"))
     }
 }
 

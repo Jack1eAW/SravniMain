@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F039ABE274FC4D00081AD4C /* BtListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039ABD274FC4D00081AD4C /* BtListSection.swift */; };
+		1F039AC0274FC4DE0081AD4C /* KmListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039ABF274FC4DE0081AD4C /* KmListSection.swift */; };
+		1F039AC2274FC4EB0081AD4C /* KtListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC1274FC4EB0081AD4C /* KtListSection.swift */; };
+		1F039AC4274FC4FC0081AD4C /* KbmListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC3274FC4FC0081AD4C /* KbmListSection.swift */; };
+		1F039AC6274FC5090081AD4C /* KoListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC5274FC5090081AD4C /* KoListSection.swift */; };
+		1F039AC8274FC5270081AD4C /* KvsListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC7274FC5270081AD4C /* KvsListSection.swift */; };
+		1F039ACA274FD43D0081AD4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC9274FD43D0081AD4C /* MainView.swift */; };
+		1F039ACC274FD4810081AD4C /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039ACB274FD4810081AD4C /* CalcView.swift */; };
 		1F533DD4274D513100083CFF /* UpCardsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD3274D513100083CFF /* UpCardsCar.swift */; };
 		1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD5274D513E00083CFF /* UpCardsChair.swift */; };
 		1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD7274D514E00083CFF /* UpCardsSale.swift */; };
@@ -39,6 +47,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F039ABD274FC4D00081AD4C /* BtListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtListSection.swift; sourceTree = "<group>"; };
+		1F039ABF274FC4DE0081AD4C /* KmListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KmListSection.swift; sourceTree = "<group>"; };
+		1F039AC1274FC4EB0081AD4C /* KtListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KtListSection.swift; sourceTree = "<group>"; };
+		1F039AC3274FC4FC0081AD4C /* KbmListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KbmListSection.swift; sourceTree = "<group>"; };
+		1F039AC5274FC5090081AD4C /* KoListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KoListSection.swift; sourceTree = "<group>"; };
+		1F039AC7274FC5270081AD4C /* KvsListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvsListSection.swift; sourceTree = "<group>"; };
+		1F039AC9274FD43D0081AD4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1F039ACB274FD4810081AD4C /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
 		1F533DD3274D513100083CFF /* UpCardsCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsCar.swift; sourceTree = "<group>"; };
 		1F533DD5274D513E00083CFF /* UpCardsChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsChair.swift; sourceTree = "<group>"; };
 		1F533DD7274D514E00083CFF /* UpCardsSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsSale.swift; sourceTree = "<group>"; };
@@ -81,6 +97,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F039ABC274FC4670081AD4C /* ListSections */ = {
+			isa = PBXGroup;
+			children = (
+				1F039ABD274FC4D00081AD4C /* BtListSection.swift */,
+				1F039ABF274FC4DE0081AD4C /* KmListSection.swift */,
+				1F039AC1274FC4EB0081AD4C /* KtListSection.swift */,
+				1F039AC3274FC4FC0081AD4C /* KbmListSection.swift */,
+				1F039AC5274FC5090081AD4C /* KoListSection.swift */,
+				1F039AC7274FC5270081AD4C /* KvsListSection.swift */,
+			);
+			path = ListSections;
+			sourceTree = "<group>";
+		};
 		1F533DD2274D511800083CFF /* UpCards */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +145,11 @@
 		1F88AC6427467167007F76FB /* SravniMain */ = {
 			isa = PBXGroup;
 			children = (
-				1F88AC6527467167007F76FB /* SravniMainApp.swift */,
+				1F039AC9274FD43D0081AD4C /* MainView.swift */,
 				1F88AC6727467167007F76FB /* ContentView.swift */,
+				1F039ACB274FD4810081AD4C /* CalcView.swift */,
+				1F039ABC274FC4670081AD4C /* ListSections */,
+				1F88AC6527467167007F76FB /* SravniMainApp.swift */,
 				1F88AC6927467168007F76FB /* Assets.xcassets */,
 				1F88AC6B27467168007F76FB /* Preview Content */,
 				1F533DD2274D511800083CFF /* UpCards */,
@@ -280,13 +312,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F039AC4274FC4FC0081AD4C /* KbmListSection.swift in Sources */,
+				1F039ACA274FD43D0081AD4C /* MainView.swift in Sources */,
 				1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */,
 				1F533DDA274D515B00083CFF /* UpCardsPurse.swift in Sources */,
 				1F88AC6827467167007F76FB /* ContentView.swift in Sources */,
 				1F542869274D415800D83F08 /* UpCardsAirplane.swift in Sources */,
+				1F039AC6274FC5090081AD4C /* KoListSection.swift in Sources */,
+				1F039AC2274FC4EB0081AD4C /* KtListSection.swift in Sources */,
+				1F039ACC274FD4810081AD4C /* CalcView.swift in Sources */,
 				1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */,
+				1F039ABE274FC4D00081AD4C /* BtListSection.swift in Sources */,
 				1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */,
+				1F039AC0274FC4DE0081AD4C /* KmListSection.swift in Sources */,
 				1F533DD4274D513100083CFF /* UpCardsCar.swift in Sources */,
+				1F039AC8274FC5270081AD4C /* KvsListSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
