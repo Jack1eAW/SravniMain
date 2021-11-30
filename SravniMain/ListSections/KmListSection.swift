@@ -14,25 +14,23 @@ struct KmListSection: View {
             VStack(spacing: 2){
                 HStack(spacing:2){
                 Text("КМ")
-                    .font(.system(size: 15))
-                    .fontWeight(.semibold)
+                    .font(Font.custom("SFProText-Semibold", size: 15))
                     .foregroundColor(Color("flcolor"))
-                    .frame(width: 24, height: 18)
+                    .frame(width: 25, height: 18)
                     .offset(x:-15)
                 Text("Коэффициент мощности")
-                        .font(.system(size: 15))
-                        .fontWeight(.semibold)
-                        .frame(width: 185, height: 18)
+                        .font(Font.custom("SFProText-Semibold", size: 15))
+                        .frame(width: 190, height: 18)
                         .offset(x:-15)
                 }
                 Text("Чем мощнее ваш автомоибиль, тем выше будет коэффициент и цена")
-                    .font(.system(size: 13))
-                    .fontWeight(.regular)
+                    .font(Font.custom("SFProText-Regular", size: 13))
                     .foregroundColor(Color("listsection"))
                     .frame(width: 255, height: 32)
                     .offset(x:-5)
             }
         }
+        .frame(width: 375, height: 60, alignment: .center)
     }
 }
 

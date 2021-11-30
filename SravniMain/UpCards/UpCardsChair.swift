@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UpCardsChair: View {
     var body: some View {
-        VStack(){
+        VStack(spacing:0){
             HStack{
         Image("chair")
         .frame(width: 44, height: 44)
@@ -19,10 +19,9 @@ struct UpCardsChair: View {
         Spacer()
             }
         Text("Как и с КБМ - для расчета цены и оформления всегда будут применяться данные самого молодого и неопытного водителя")
-            .fontWeight(.medium)
-            .font(.system(size: 15))
+            .font(Font.custom("SFProText-Semibold",size: 15))
             .foregroundColor(Color.white)
-            .frame(width: 214, height: 108)
+            .frame(width: 214, height: 90)
         }
         .padding()
     .frame(width: 238, height: 194)

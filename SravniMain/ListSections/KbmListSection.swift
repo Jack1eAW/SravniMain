@@ -14,23 +14,21 @@ struct KbmListSection: View {
             VStack(spacing: 2){
                 HStack(spacing:2){
                 Text("КБМ")
-                    .font(.system(size: 15))
-                    .fontWeight(.semibold)
+                    .font(Font.custom("SFProText-Semibold", size: 15))
                     .foregroundColor(Color("flcolor"))
-                    .frame(width: 34, height: 18)
+                    .frame(width: 35, height: 18)
                 Text("Коэффициент бонус-малус")
-                        .font(.system(size: 15))
-                        .fontWeight(.semibold)
-                        .frame(width: 205, height: 18)
+                        .font(Font.custom("SFProText-Semibold", size: 15))
+                        .frame(width: 211, height: 18)
                 }
                 Text("Персональная накопленная скидка каждого водителя за безаварийность")
-                    .font(.system(size: 13))
-                    .fontWeight(.regular)
+                    .font(Font.custom("SFProText-Regular", size: 13))
                     .foregroundColor(Color("listsection"))
                     .frame(width: 255, height: 32)
                     .offset(x:-1)
             }
         }
+        .frame(width: 375, height: 60, alignment: .center)
     }
 }
 

@@ -9,8 +9,8 @@ import SwiftUI
 
 struct UpCardsSale: View {
     var body: some View {
-        VStack(){
-            HStack{
+        VStack{
+        HStack{
         Image("sale")
         .frame(width: 44, height: 44)
         .background(Color("saleshape"))
@@ -19,8 +19,7 @@ struct UpCardsSale: View {
         Spacer()
             }
         Text("К полису будет применяться “самый плохой” КБМ из всех водителей, то есть за аварийных водителей придется заплатить")
-            .fontWeight(.medium)
-            .font(.system(size: 15))
+            .font(Font.custom("SFProText-Semibold",size: 15))
             .foregroundColor(Color.white)
             .frame(width: 214, height: 108)
         }

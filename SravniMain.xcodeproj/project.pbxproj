@@ -19,6 +19,8 @@
 		1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD5274D513E00083CFF /* UpCardsChair.swift */; };
 		1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD7274D514E00083CFF /* UpCardsSale.swift */; };
 		1F533DDA274D515B00083CFF /* UpCardsPurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD9274D515B00083CFF /* UpCardsPurse.swift */; };
+		1F54049727566BDE00AE7C75 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */; };
+		1F54049D2756B3C800AE7C75 /* FormulCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54049C2756B3C800AE7C75 /* FormulCard.swift */; };
 		1F542869274D415800D83F08 /* UpCardsAirplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F542868274D415800D83F08 /* UpCardsAirplane.swift */; };
 		1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88AC6527467167007F76FB /* SravniMainApp.swift */; };
 		1F88AC6827467167007F76FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88AC6727467167007F76FB /* ContentView.swift */; };
@@ -59,6 +61,9 @@
 		1F533DD5274D513E00083CFF /* UpCardsChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsChair.swift; sourceTree = "<group>"; };
 		1F533DD7274D514E00083CFF /* UpCardsSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsSale.swift; sourceTree = "<group>"; };
 		1F533DD9274D515B00083CFF /* UpCardsPurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsPurse.swift; sourceTree = "<group>"; };
+		1F540495275669C800AE7C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
+		1F54049C2756B3C800AE7C75 /* FormulCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulCard.swift; sourceTree = "<group>"; };
 		1F542868274D415800D83F08 /* UpCardsAirplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsAirplane.swift; sourceTree = "<group>"; };
 		1F88AC6227467167007F76FB /* SravniMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SravniMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F88AC6527467167007F76FB /* SravniMainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SravniMainApp.swift; sourceTree = "<group>"; };
@@ -122,6 +127,14 @@
 			path = UpCards;
 			sourceTree = "<group>";
 		};
+		1F540436275668D000AE7C75 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		1F88AC5927467167007F76FB = {
 			isa = PBXGroup;
 			children = (
@@ -145,14 +158,17 @@
 		1F88AC6427467167007F76FB /* SravniMain */ = {
 			isa = PBXGroup;
 			children = (
+				1F540495275669C800AE7C75 /* Info.plist */,
 				1F039AC9274FD43D0081AD4C /* MainView.swift */,
 				1F88AC6727467167007F76FB /* ContentView.swift */,
 				1F039ACB274FD4810081AD4C /* CalcView.swift */,
+				1F54049C2756B3C800AE7C75 /* FormulCard.swift */,
+				1F533DD2274D511800083CFF /* UpCards */,
 				1F039ABC274FC4670081AD4C /* ListSections */,
 				1F88AC6527467167007F76FB /* SravniMainApp.swift */,
 				1F88AC6927467168007F76FB /* Assets.xcassets */,
+				1F540436275668D000AE7C75 /* Fonts */,
 				1F88AC6B27467168007F76FB /* Preview Content */,
-				1F533DD2274D511800083CFF /* UpCards */,
 			);
 			path = SravniMain;
 			sourceTree = "<group>";
@@ -286,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F54049727566BDE00AE7C75 /* Ubuntu-Bold.ttf in Resources */,
 				1F88AC6D27467168007F76FB /* Preview Assets.xcassets in Resources */,
 				1F88AC6A27467168007F76FB /* Assets.xcassets in Resources */,
 			);
@@ -322,6 +339,7 @@
 				1F039AC2274FC4EB0081AD4C /* KtListSection.swift in Sources */,
 				1F039ACC274FD4810081AD4C /* CalcView.swift in Sources */,
 				1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */,
+				1F54049D2756B3C800AE7C75 /* FormulCard.swift in Sources */,
 				1F039ABE274FC4D00081AD4C /* BtListSection.swift in Sources */,
 				1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */,
 				1F039AC0274FC4DE0081AD4C /* KmListSection.swift in Sources */,
@@ -490,6 +508,7 @@
 				DEVELOPMENT_TEAM = 3335BGVMD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SravniMain/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -519,6 +538,7 @@
 				DEVELOPMENT_TEAM = 3335BGVMD7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SravniMain/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

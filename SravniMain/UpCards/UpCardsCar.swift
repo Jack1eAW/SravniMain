@@ -9,7 +9,7 @@ import SwiftUI
 
 struct UpCardsCar: View {
     var body: some View {
-        VStack(){
+        VStack(spacing:0){
             HStack{
         Image("car")
         .frame(width: 44, height: 44)
@@ -19,8 +19,7 @@ struct UpCardsCar: View {
         Spacer()
             }
         Text("Цены на полис ОСАГО будут одинаковые на сайте страховоых, у агента или на сайте сравнения. На сайтах сравнения обычно немного удобнее")
-            .fontWeight(.medium)
-            .font(.system(size: 15))
+            .font(Font.custom("SFProText-Semibold",size: 15))
             .foregroundColor(Color.white)
             .frame(width: 214, height: 108)
         }

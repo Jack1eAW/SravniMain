@@ -11,17 +11,18 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            ScrollView {
+            
+            ScrollView(showsIndicators: false) {
                 VStack {
                     VStack{
                     HStack(){
                         Text("Как рассчитывается цена на полис ОСАГО")
-                            .font(.title)
-                            .fontWeight(.bold)
+                            .font(Font.custom("SFProDisplay-Bold",size: 28))
+                            .frame(width: 343, height: 68, alignment: .leading)
                             .padding()
                         }
                     
-                    ScrollView(.horizontal){
+                    ScrollView(.horizontal,  showsIndicators: false){
                         HStack {
                             UpCardsAirplane()
                             UpCardsPurse()
@@ -32,7 +33,6 @@ struct ContentView: View {
                         .padding()
                     }
                     }
-                    .frame(minWidth: 100, maxWidth: .infinity, minHeight: 100, maxHeight: .infinity)
                     .background(Color("background"))
                     .edgesIgnoringSafeArea(.top)
                     
@@ -40,16 +40,17 @@ struct ContentView: View {
                     
                     VStack() {
                         Text("Как формируется цена?")
-                            .font(.system(size: 20))
-                            .fontWeight(.bold)
-                        CalcView()
+                            .font(Font.custom("SFProDisplay-Bold",size: 20))
+                            .frame(width: 343, height: 24, alignment: .leading)
+                        FormulCard()
                         
                     }
+                    .padding()
                     
                     VStack {
                         Text("Подробнее о коэффицентах")
-                            .font(.system(size: 20))
-                            .fontWeight(.bold)
+                            .font(Font.custom("SFProDisplay-Bold",size: 20))
+                            .frame(width: 343, height: 24, alignment: .leading)
                         BtListSection()
                         KmListSection()
                         KtListSection()
@@ -57,6 +58,7 @@ struct ContentView: View {
                         KoListSection()
                         KvsListSection()
                     }
+                    .padding(.top,0)
                 }
             }
             .background(Color.white)

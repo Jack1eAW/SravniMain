@@ -14,25 +14,23 @@ struct KtListSection: View {
             VStack(spacing: 2){
                 HStack(spacing:2){
                 Text("КТ")
-                    .font(.system(size: 15))
-                    .fontWeight(.semibold)
+                    .font(Font.custom("SFProText-Semibold", size: 15))
                     .foregroundColor(Color("flcolor"))
                     .frame(width: 24, height: 18)
                     .offset(x:-11)
                 Text("Коэффициент территории")
-                        .font(.system(size: 15))
-                        .fontWeight(.semibold)
-                        .frame(width: 197, height: 18)
+                        .font(Font.custom("SFProText-Semibold", size: 15))
+                        .frame(width: 202, height: 18)
                         .offset(x:-11)
                 }
                 Text("Всегда применяется по прописке собственника автомобиля")
-                    .font(.system(size: 13))
-                    .fontWeight(.regular)
+                    .font(Font.custom("SFProText-Regular", size: 13))
                     .foregroundColor(Color("listsection"))
                     .frame(width: 255, height: 32)
                     .offset(x:-12)
             }
         }
+        .frame(width: 375, height: 60, alignment: .center)
     }
 }
 
