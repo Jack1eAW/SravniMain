@@ -9,11 +9,6 @@ import SwiftUI
 
 struct FormulCard: View {
     var body: some View {
-        ZStack{
-            RoundedRectangle(cornerRadius: 16)
-                .foregroundColor(Color("pricebgcolor"))
-                .frame(width: 343, height: 184)
-            
             VStack {
                 VStack {
                 HStack(spacing: 8) {
@@ -122,7 +117,9 @@ struct FormulCard: View {
                     .padding(.leading, 0)
                 }
             }
-        }
+            .frame(width: 343, height: 184)
+            .background(Color("background"))
+            .cornerRadius(16)
     }
 }
 

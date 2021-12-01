@@ -15,13 +15,10 @@
 		1F039AC8274FC5270081AD4C /* KvsListSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC7274FC5270081AD4C /* KvsListSection.swift */; };
 		1F039ACA274FD43D0081AD4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC9274FD43D0081AD4C /* MainView.swift */; };
 		1F039ACC274FD4810081AD4C /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039ACB274FD4810081AD4C /* CalcView.swift */; };
-		1F533DD4274D513100083CFF /* UpCardsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD3274D513100083CFF /* UpCardsCar.swift */; };
-		1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD5274D513E00083CFF /* UpCardsChair.swift */; };
-		1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD7274D514E00083CFF /* UpCardsSale.swift */; };
-		1F533DDA274D515B00083CFF /* UpCardsPurse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F533DD9274D515B00083CFF /* UpCardsPurse.swift */; };
 		1F54049727566BDE00AE7C75 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */; };
 		1F54049D2756B3C800AE7C75 /* FormulCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54049C2756B3C800AE7C75 /* FormulCard.swift */; };
-		1F542869274D415800D83F08 /* UpCardsAirplane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F542868274D415800D83F08 /* UpCardsAirplane.swift */; };
+		1F54049F2757C96C00AE7C75 /* UpCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54049E2757C96C00AE7C75 /* UpCardsModel.swift */; };
+		1F542869274D415800D83F08 /* UpCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F542868274D415800D83F08 /* UpCards.swift */; };
 		1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88AC6527467167007F76FB /* SravniMainApp.swift */; };
 		1F88AC6827467167007F76FB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F88AC6727467167007F76FB /* ContentView.swift */; };
 		1F88AC6A27467168007F76FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F88AC6927467168007F76FB /* Assets.xcassets */; };
@@ -57,14 +54,11 @@
 		1F039AC7274FC5270081AD4C /* KvsListSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KvsListSection.swift; sourceTree = "<group>"; };
 		1F039AC9274FD43D0081AD4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1F039ACB274FD4810081AD4C /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
-		1F533DD3274D513100083CFF /* UpCardsCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsCar.swift; sourceTree = "<group>"; };
-		1F533DD5274D513E00083CFF /* UpCardsChair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsChair.swift; sourceTree = "<group>"; };
-		1F533DD7274D514E00083CFF /* UpCardsSale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsSale.swift; sourceTree = "<group>"; };
-		1F533DD9274D515B00083CFF /* UpCardsPurse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsPurse.swift; sourceTree = "<group>"; };
 		1F540495275669C800AE7C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		1F54049C2756B3C800AE7C75 /* FormulCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulCard.swift; sourceTree = "<group>"; };
-		1F542868274D415800D83F08 /* UpCardsAirplane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsAirplane.swift; sourceTree = "<group>"; };
+		1F54049E2757C96C00AE7C75 /* UpCardsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCardsModel.swift; sourceTree = "<group>"; };
+		1F542868274D415800D83F08 /* UpCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpCards.swift; sourceTree = "<group>"; };
 		1F88AC6227467167007F76FB /* SravniMain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SravniMain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F88AC6527467167007F76FB /* SravniMainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SravniMainApp.swift; sourceTree = "<group>"; };
 		1F88AC6727467167007F76FB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,11 +112,8 @@
 		1F533DD2274D511800083CFF /* UpCards */ = {
 			isa = PBXGroup;
 			children = (
-				1F542868274D415800D83F08 /* UpCardsAirplane.swift */,
-				1F533DD9274D515B00083CFF /* UpCardsPurse.swift */,
-				1F533DD7274D514E00083CFF /* UpCardsSale.swift */,
-				1F533DD5274D513E00083CFF /* UpCardsChair.swift */,
-				1F533DD3274D513100083CFF /* UpCardsCar.swift */,
+				1F542868274D415800D83F08 /* UpCards.swift */,
+				1F54049E2757C96C00AE7C75 /* UpCardsModel.swift */,
 			);
 			path = UpCards;
 			sourceTree = "<group>";
@@ -331,19 +322,16 @@
 			files = (
 				1F039AC4274FC4FC0081AD4C /* KbmListSection.swift in Sources */,
 				1F039ACA274FD43D0081AD4C /* MainView.swift in Sources */,
-				1F533DD6274D513E00083CFF /* UpCardsChair.swift in Sources */,
-				1F533DDA274D515B00083CFF /* UpCardsPurse.swift in Sources */,
 				1F88AC6827467167007F76FB /* ContentView.swift in Sources */,
-				1F542869274D415800D83F08 /* UpCardsAirplane.swift in Sources */,
+				1F54049F2757C96C00AE7C75 /* UpCardsModel.swift in Sources */,
+				1F542869274D415800D83F08 /* UpCards.swift in Sources */,
 				1F039AC6274FC5090081AD4C /* KoListSection.swift in Sources */,
 				1F039AC2274FC4EB0081AD4C /* KtListSection.swift in Sources */,
 				1F039ACC274FD4810081AD4C /* CalcView.swift in Sources */,
-				1F533DD8274D514E00083CFF /* UpCardsSale.swift in Sources */,
 				1F54049D2756B3C800AE7C75 /* FormulCard.swift in Sources */,
 				1F039ABE274FC4D00081AD4C /* BtListSection.swift in Sources */,
 				1F88AC6627467167007F76FB /* SravniMainApp.swift in Sources */,
 				1F039AC0274FC4DE0081AD4C /* KmListSection.swift in Sources */,
-				1F533DD4274D513100083CFF /* UpCardsCar.swift in Sources */,
 				1F039AC8274FC5270081AD4C /* KvsListSection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
