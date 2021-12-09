@@ -34,7 +34,6 @@ var body: some View {
 
 struct UpCards_Previews: PreviewProvider {
     static var previews: some View {
-        
         UpCards(card: UpCardsModel(image: Image("airplane"), text: "Цена ОСАГО каждый год меняется, то вверх, то вниз, даже если не было аварий. Разложим цену по полочкам", background: Color("bluecard"), imagecolor: Color("airplaneshape")))
         
     }

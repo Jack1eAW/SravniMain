@@ -9,8 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        NavigationView{
             ScrollView(showsIndicators: false) {
-                
                     Text("Как рассчитывается цена на полис ОСАГО")
                         .font(Font.custom("SFProDisplay-Bold",size: 28))
                         .frame(maxWidth: .infinity, maxHeight: 68, alignment: .leading)
@@ -38,12 +38,15 @@ struct ContentView: View {
                         .font(Font.custom("SFProDisplay-Bold",size: 20))
                         .frame(maxWidth: .infinity, maxHeight: 24, alignment: .leading)
                         .padding(.leading)
-                    BtListSection()
-                    KmListSection()
-                    KtListSection()
-                    KbmListSection()
-                    KoListSection()
-                    KvsListSection()
+                    ForEach(listData) { item in
+                        NavigationLink(destination: CoefficientView()){
+                            VStack{
+                        ListSection(list: item)
+                                Divider()
+                            }
+                        }
+                        .buttonStyle(PlainButtonStyle())
+                    }
                 }
                 .padding(.top)
                 .padding(.trailing)
@@ -52,7 +55,9 @@ struct ContentView: View {
             }
             .background(Color("background"))
             .edgesIgnoringSafeArea(.bottom)
-}
+            .navigationBarHidden(true)
+        }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
