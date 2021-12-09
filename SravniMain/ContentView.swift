@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView{
-            ScrollView(showsIndicators: false) {
+            ScrollView(showsIndicators: true) {
                     Text("Как рассчитывается цена на полис ОСАГО")
                         .font(Font.custom("SFProDisplay-Bold",size: 28))
                         .frame(maxWidth: .infinity, maxHeight: 68, alignment: .leading)
@@ -51,10 +51,9 @@ struct ContentView: View {
                 .padding(.top)
                 .padding(.trailing)
                 .background(.white)
-                
             }
             .background(Color("background"))
-            .edgesIgnoringSafeArea(.bottom)
+            
             .navigationBarHidden(true)
         }
     }
