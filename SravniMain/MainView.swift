@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct MainView: View {
+    init() {
+            UITabBar.appearance().backgroundColor = UIColor.white
+            UITabBar.appearance().barTintColor = UIColor.white
+        }
     var body: some View {
         TabView{
             ContentView()
@@ -20,7 +24,6 @@ struct MainView: View {
                     Text("Калькулятор ОСАГО")
                     Image("calcicon").renderingMode(.template)
                 }
-            
         }
         .accentColor(Color("flcolor"))
     }

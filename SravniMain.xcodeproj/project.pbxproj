@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1F039ACA274FD43D0081AD4C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039AC9274FD43D0081AD4C /* MainView.swift */; };
 		1F039ACC274FD4810081AD4C /* CalcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F039ACB274FD4810081AD4C /* CalcView.swift */; };
+		1F112E36276F9225001551BD /* model.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F112E35276F9225001551BD /* model.json */; };
 		1F54049727566BDE00AE7C75 /* Ubuntu-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */; };
 		1F54049D2756B3C800AE7C75 /* FormulCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54049C2756B3C800AE7C75 /* FormulCard.swift */; };
 		1F54049F2757C96C00AE7C75 /* UpCardsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F54049E2757C96C00AE7C75 /* UpCardsModel.swift */; };
@@ -45,6 +46,7 @@
 /* Begin PBXFileReference section */
 		1F039AC9274FD43D0081AD4C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1F039ACB274FD4810081AD4C /* CalcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcView.swift; sourceTree = "<group>"; };
+		1F112E35276F9225001551BD /* model.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = model.json; sourceTree = "<group>"; };
 		1F540495275669C800AE7C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1F54049627566BDE00AE7C75 /* Ubuntu-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ubuntu-Bold.ttf"; sourceTree = "<group>"; };
 		1F54049C2756B3C800AE7C75 /* FormulCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormulCard.swift; sourceTree = "<group>"; };
@@ -150,6 +152,7 @@
 				1F88AC6927467168007F76FB /* Assets.xcassets */,
 				1F540436275668D000AE7C75 /* Fonts */,
 				1F88AC6B27467168007F76FB /* Preview Content */,
+				1F112E35276F9225001551BD /* model.json */,
 			);
 			path = SravniMain;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				1F54049727566BDE00AE7C75 /* Ubuntu-Bold.ttf in Resources */,
 				1F88AC6D27467168007F76FB /* Preview Assets.xcassets in Resources */,
 				1F88AC6A27467168007F76FB /* Assets.xcassets in Resources */,
+				1F112E36276F9225001551BD /* model.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

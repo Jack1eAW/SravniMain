@@ -51,6 +51,9 @@ struct ContentView: View {
                 .padding(.top)
                 .padding(.trailing)
                 .background(.white)
+                
+                Spacer()
+                    .frame(height: 21)
             }
             .background(Color("background"))
             

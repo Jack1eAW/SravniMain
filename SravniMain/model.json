@@ -1,0 +1,59 @@
+[
+    {
+       "id": 0,
+       "image": "https://s3-alpha-sig.figma.com/img/a33a/403f/bad3665f38535b4bd62a1a79854f4115?Expires=1640563200&Signature=hO5b6-z0JLqmnor~8qL3icELf6WPTBuKXOTsg~ZWuLy3W1kAd9c1R8gIB2V84z3J-Nx3l6VoMo0q-Spm0SNSkQseukGZUTENn~FuEOe~gj4J8yeTWxArrJj95bx2IgvgPAiWb6-H9rDgkgUIqGlbRxKUc4AA7p~NOPs0wFnWgVIiJIu3kwX9yCC1Hr~soqcZQVurNEE0CdRk2F7fNmXQuFLAqvz-AZnwcjOvFQV42-Y5NE2YKTxlCZLnvYKZF74EV~KJo7Sz~p6HZUdRa5mnQ3YM5qn~ZOnhBR21vBviYdd1ofzsOhK~Eml5Ii5V2INxZ5yASPTeV2uhHSa0kSyQdQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+       "fl": "БТ",
+       "fltext": "Базовый тариф",
+       "text": "Устанавливается индивидуально каждой страховой от 2 471 до 5 436 Р",
+    },
+    {
+        "id": 1,
+        "image": "https://s3-alpha-sig.figma.com/img/a8c8/0447/27fa0cbfb9ea51c6b957e51a0f38c5bb?Expires=1640563200&Signature=AcEQW5gr~L3M6gmoO66M3PYxKPMCAdaSDXno7fS8DCRFpJu6Ly9UnZXNbJBui-ILpu6sNqOHqgNGRs5TUC0f9Pl0yqSo0SC0JTYeK0rMGZTViwDIY7g5sAm1Hl4ixMc9ipILHh5Fmm9RemnyqM6y9127b41jFKRBTBbSeB9AjlRvm77WJxbt2sdUrSFOGgFIopjP3vr06kzRlhGcnvh4Y80cdjw2r~MdGTOOmvC1NuXkIui2rusgZf3LknVRkuGLYen6VclRBdXoj3MAcjsmO7q3y~J~HASGg8uH1zs5x-I3sdMgzimcjwnwofNPlLiOBnrNsh8ELKeiZ5~cl9DK6w__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "icon": "arrow",
+        "fl": "КМ",
+        "fltext": "Коэффициент мощности",
+        "text": "Чем мощнее ваш автомоибиль, тем выше будет коэффициент и цена",
+        "flcolor": "flcolor",
+        "textcolor": "listsection"
+    },
+    {
+        "id": 2,
+        "image": "https://s3-alpha-sig.figma.com/img/9dfa/7b64/a17024f99f48046793fa4ad5a8f0fd21?Expires=1640563200&Signature=aFQdjXf-BB5EfFOmUOkIsdrN9SwaD9MEHwyXf6xnXHn1TJIdurAWDi2h5DgslK7aEWy4Lh3AZxp7-0PRSD4y4PmnpOCwBwdubvKm5vtAyHNISprEcgJN~ikBP6VhIcLlg0rEwzK3Egb1F51NeLRoRwKjrjbh7PI8tLZdLbXl9LY82hM3ie-Z295OT-Yb8AhDcoMjJ-fPtZFrXNXyFSUG~DV1iuO4-Lm1TmK4LiTA7GPdON6zMLRFivULGdEaQzv0PS6vjHFby~uF4-F8CCP0cFkfnXfElDpVem5nRNMQcTdwmiBDnxb3YAsasDV4UR3gQxznr~AvJXQxuHvCoGgWIg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "icon": "arrow",
+        "fl": "КТ",
+        "fltext": "Коэффициент территории",
+        "text": "Всегда применяется по прописке собственника автомобиля",
+        "flcolor": "flcolor",
+        "textcolor": "listsection"
+    },
+    {
+        "id": 3,
+        "image": "https://s3-alpha-sig.figma.com/img/3bd2/2341/b05823d1155f3498bae70e7853ed0a85?Expires=1640563200&Signature=TXXqrxBa1URUdVrDwjO~CBZQrJbOe-cespR7ATubUcogjfEm4zuy3XQjcmrCbyrsu2XJvE7Lf7Mu8NiEqurpgO13RAAZvaW2HgkXwuIpb8eSjxaUYdCweO3PnALca0CAUhcob6fgFVacb8S1NAX2GYr6N1UpmTIzUohg6kBz5d8VcSG3-lK0WZxb-94gzAZzf4cC8spEYN6IvPlLvp1GLc7~rkvnCXsTPLzInybcBwMMsdfRlPNH3FSExpg~alFGk9Kfnfj2X-b0wGjSDQTBVsH5Yzu4qzz5lwhPFpPyomCZgH3yjr2fGVDALc~BJdjjwqX4Y0ImNqCPgBX2L6f3zw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "icon": "arrow",
+        "fl": "КБМ",
+        "fltext": "Коэффициент бонус-малус",
+        "text": "Персональная накопленная скидка каждого водителя за безаварийность",
+        "flcolor": "flcolor",
+        "textcolor": "listsection"
+    },
+    {
+        "id": 4,
+        "image": "https://s3-alpha-sig.figma.com/img/354b/ab92/567225542a74bdf8429558fc994ceab9?Expires=1640563200&Signature=K-vH99rIi1kfNdxT6cDWgxx-6mtX6ktqZUCU0C4ykaNYS5zBhhiQ2Pii76srYSpjI3Q6oDe6vSlt5~XB-hIoidHwVLEF8~-oJAYQ0jhpUtOxpW60~X84Am8Ho3f6Ia8YNssMllSuEdOGTl2trPbDNUAFwuq6K80CZlYKmSKHzYBQbmVDnp4ariYCANKEJ8GBT0hA1et6rYyz6hVDfDGBfy3RpGSnKGdn2XCv9snDsCM4TR5K-y2mIb0mgBMHIuaMNdyv535IA~GQ0d8WDcOrP3YMarzjWUFCpSQQ-sA3Ffa1FOs6lOSm-A90H4X2XFa7y4WzvV20TIEUgVe92HJWvA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "icon": "arrow",
+        "fl": "Коэффициент ограничений",
+        "fltext": "Базовый тариф",
+        "text": "Если страховка “без ограничений” - полис будет в 2 раза дороже",
+        "flcolor": "flcolor",
+        "textcolor": "listsection"
+    },
+    {
+        "id": 5,
+        "image": "https://s3-alpha-sig.figma.com/img/d01c/09e0/6af264d8427042c2784b3f293f2c21e4?Expires=1640563200&Signature=YUpDfYfcjxaLUohwKUf6g~6~PTBWkFB4fWI8eZ9pF4mQy6z5w0iYpcJZHizt3p~v~7i7xOBSFZQlQ2kgTTOEH-wHpbbJyEBatrupVJ3i20vVRaTbEV6MqylNfDMA4ojednGcSBc7knm4j8DO5Qgizqy~4jsSFznDDUgyRDt9QH7OjXCb8MkjTnYk9TZejrlBVFKIKrhe-9NSuXbgYd8-5zn~a0qp00cw5U1CQFl7t6Wkirq-imbXOQruYJoijPQWVOg-HWz1X9RtnBwVp-s7k6w1rN6XU0uvRYaN5UmT5fJqHLUXK0QGLZ0XNuBELD4WA4GEMNWU8eTtUhfErbRn1Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA",
+        "icon": "arrow",
+        "fl": "КВС",
+        "fltext": "Коэффициент возраст-стаж",
+        "text": "Чем старше и опытнее водитель - тем дешевле будет стоить полис",
+        "flcolor": "flcolor",
+        "textcolor": "listsection"
+    }
+]
